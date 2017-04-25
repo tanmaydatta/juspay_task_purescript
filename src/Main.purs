@@ -28,7 +28,6 @@ import Element as J
 qx = pi/4.0
 qy = pi/3.0
 qz = pi/4.0
-x pt = pt.x
 
 mouseDown input drag oldx oldy e _ =  do
   pagex <- J.getPageX e
