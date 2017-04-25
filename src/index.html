@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2D Graphics Demo</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="600" height="1280" ></canvas>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    function init()
+    {
+        canvas = document.getElementById("canvas");
+        canvas.width = document.body.clientWidth; //document.width is obsolete
+        canvas.height = document.body.clientHeight; //document.height is obsolete
+    }
+  </script>
+ 
+
+    <script type="text/javascript" src="../dist/Main.js"></script>
+  </body>
+</html>

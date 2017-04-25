@@ -1,0 +1,33 @@
+{
+  "name": "juspay_purescript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.0.0",
+    "purescript-console": "^3.0.0",
+    "purescript-math": "^2.0.0",
+    "purescript-canvas": "^3.0.0",
+    "purescript-dom": "^4.3.1",
+    "purescript-eff": "^3.1.0",
+    "purescript-control": "^3.0.0",
+    "purescript-functions": "^3.0.0",
+    "purescript-maybe": "^3.0.0",
+    "purescript-jquery": "^4.0.0",
+    "purescript-refs": "^3.0.0",
+    "purescript-requestanimationframe": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0",
+    "purescript-math": "^2.0.0",
+    "purescript-decimals": "^2.0.0"
+  },
+  "resolutions": {
+    "purescript-dom": "^4.0.0",
+    "purescript-foldable-traversable": "^0.4.0",
+    "purescript-unfoldable": "^3.0.0"
+  }
+}
